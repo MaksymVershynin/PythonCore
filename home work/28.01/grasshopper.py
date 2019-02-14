@@ -1,5 +1,5 @@
-def list_animals(animals):
-    list = ''
-    for i in range(len(animals)):
-        list += str(i + 1) + '. ' + animals[i] + '\n'
-    return list
+def summation(num):
+    j=0
+    for i in range(num+1):
+        j+=i
+    return j
